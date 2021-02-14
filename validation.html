@@ -13,7 +13,7 @@
 		  $pass_error="";
 		  $bio_error="";
 		  $pro_error="";
-		  $gndr_error="";
+		  $gender_error="";
 		  $hob_error="";
 
 		  if($_SERVER['REQUEST_METHOD']=='POST'){
@@ -23,7 +23,7 @@
 				$uname_error="username is empty";
 			}
 		  
-			else if(strlen ($_POST["uname"])<=4){
+			else if(stringLength ($_POST["uname"])<=4){
 				$uname_error="uname at least 4 character";
 			}
 			else{
@@ -33,7 +33,7 @@
 			if(empty($_POST["pass"])){
 				$pass_error="input password";
 			}
-			else if(strlen($_POST["pass"]<=6)){
+			else if(stringLength($_POST["pass"]<=6)){
 				$pass_error="password at least 6";
 			}
 			else{
@@ -58,7 +58,7 @@
 
 			
 			if(empty($_POST["gender"])){
-				$gndr_error="select gender";
+				$gender_error="select gender";
 			}
 			else{
 				$gender=$_POST["gender"];
@@ -75,19 +75,19 @@
 			<table>
 				<tr>
 					<td rowspan="2"><span>User access </span></td>
-					<td>:<input type="text" placeholder="Username" name="uname" value= <?php echo $uname;?> > 
+					<td>:<input type="text" placeholder="Username" name="uname" value="" > 
 					<span> <?php echo $uname_error; ?> </span> 
 					</td>
 				</tr>
 				<tr>
-					<td>:<input type="password" placeholder="Password" name="pass" value= <?php echo $password; ?>>
+					<td>:<input type="password" placeholder="Password" name="pass" value= "">
 					<span> <?php echo $pass_error; ?> </span>
 					</td>
 				</tr>
 				<tr>
 					<td><span>Gender</span></td>
 					<td>:<input type="radio" value="Male" name="gender">Male<input type="radio" value="Female" name="gender">Female
-					<span> <?php echo $gndr_error;?> </span>
+					<span> <?php echo $gender_error;?> </span>
 					</td>
 				</tr>
 				<tr>
