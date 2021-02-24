@@ -67,17 +67,11 @@
     <title> Registration Form </title>
 </head>
 <body>
-    <fieldset>
-         
-             
-              
+    <fieldset>        
         </table>
     </fieldset>
     
     <fieldset>
-	
-	
-            
             <legend>
                 <b>  <h2> Club Member Registration  </h2></b>
             </legend>
@@ -94,9 +88,7 @@
                     <tr>
                          
                         </td>
-                    </tr>
-					
-					
+                    </tr>	
 					<tr>
                         <td>
                            User  Name:
@@ -104,19 +96,7 @@
                         <td>
                             <input type="text" name='name'>
                         </td>
-                    </tr>
-                     
-					
-					
-					
-					
-					
-					
-					
-					
-					
-                     
-                    
+                    </tr> 
                     <tr>
                         <td>
                             Password:
@@ -137,13 +117,10 @@
                             <input type="password" name='confirmpassword'>
                         </td>
                     </tr>
-                    <tr>
-                         
+                    <tr>       
                         </td>
                     </tr>
-					
-					
-					
+			
 					 <tr>
                         <td>
                             Email:
@@ -156,9 +133,6 @@
                          
                         </td>
                     </tr>
-					
-					
-					
                     <tr>
                         <td>
                             Phone Number:
@@ -167,9 +141,8 @@
                             <input type="number" name='pn'>
                         </td>
                     </tr>
-                    <tr>
-                      
-                        </td>
+                    <tr>    
+                     </td>
                     </tr>
 					
 					<tr>
@@ -183,9 +156,7 @@
                     <tr>
                         
                         </td>
-                    </tr>
-					
-					
+                    </tr>	
 					  <tr>
                         <td>
                             <fieldset>
@@ -201,16 +172,8 @@
                             </fieldset>
                         </td>
                     </tr>
-					
-					
-					
-					
-					
-					
-					
                     <tr>
-					<td>
-                         
+					<td>    
                             <fieldset>
                                 <legend>
                                     <b>Gender</b>
@@ -218,35 +181,24 @@
 									<td>
                                 </legend>
                                 <input type='radio' name='gender' value='male'>Male
-                                <input type='radio' name='gender' value='female'>Female
-                                
+                                <input type='radio' name='gender' value='female'>Female  
                             </fieldset>
                         </td>
                     </tr>
                     <tr>
-					
-					
-					
-					
-					
 					<tr>
                         <td>
                             where did you hear about us?:
                         </td>
                         	<td> 
- 
 						<input type="checkbox" name="SKILL"> A friend or colleague <br>
 						<input type="checkbox"name= "SKILL"> Google <br>
 						<input type="checkbox" name="SKILL"> Blog post <br>
 						<input type="checkbox" name="SKILL"> New Article <br>
-					</td>
-					 
-                         
+					</td>  
                     </tr>
                     <tr>
-                      
                     </tr>
-					
 					<tr>
                         <td>
                             Bio:
@@ -256,12 +208,6 @@
                         < 
                     </tr>
                     <tr>
-                       
-					
-					
-					
-					
-					
                     <tr>
                          <td>
                             <input type='submit' value='Register'>
